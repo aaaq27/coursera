@@ -28,6 +28,12 @@ p {
 	
 }
 
+
+.textbox {
+   margin-top:40px;
+}
+
+
 .chicken1{
     border: 1px solid black;
     background-color: #D3D3D3;
@@ -36,14 +42,7 @@ p {
     margin: 10px;
     padding: 10px;
 }
-.beef1{
-    border: 1px solid black;
-    background-color: #D3D3D3;
-    font-size: 1em;
-    height: 220px;
-    margin: 10px;
-    padding: 10px;
-}
+ 
 .sushi1{
     border: 1px solid black;
     background-color: #D3D3D3;;
@@ -52,6 +51,7 @@ p {
     margin: 10px;
     padding: 10px;
 }
+
 .topbox1{
     width: 120px;
     text-align: center;
@@ -59,68 +59,57 @@ p {
     border: 1px solid black;
     position: relative;
     top: -11px;
-    left: 266px;
+  	right:-11px;
+ 	float:right;
     background-color: #20639B;
-}
-.topbox2{
-    width: 120px;
-    color: #fff;
-    text-align: center;
-    padding: 2px;
-    border: 1px solid black;
-    position: relative;
-    top: -11px;
-    left: 266px;
-    background-color: #20639B;
-}
-.topbox3{
-    width: 120px;
-    position: fixed;
-    text-align: center;
-    padding: 2px;
-    border: 1px solid black;
-    position: relative;
-    top: -11px;
-    left: 265px;
-    background-color: #20639B;
-}
+    font-size:22px;
+    color:white;
+    font-family:Arial;
+} 
+
+
 
   
   
   @media (min-width: 1200px) {
-    .chicken1, .beef1, .sushi1, .chicken2, .beef2, .sushi2{
+    .chicken1,  .sushi1{
          float: left; 
     }
     .chicken1 {
       width: 31%;
     }
-    .beef1 {
-      width: 31%;
-    }
+ 
     .sushi1 {
       width: 31%;
     }
     
+    .topbox1{
+    width: 120px;
+  	right:-11px;
+ 	float:right;
+    text-align: center;
+    padding: 2px;
+    border: 1px solid black;
+    position: relative;
+    top: -11px;
+    background-color: #20639B;
+	}
+    
+    
   }
 
-  @media(min-width:1200px){
-    .chicken1, .beef1, .sushi1, .chicken2, .beef2, .sushi2{
-        float: left; 
-   }
-  }
   
   @media (min-width: 992px) and (max-width: 1199px) {
-    .chicken1, .beef1, .sushi1, .chicken2, .beef2, .sushi2{
+    .chicken1, .sushi1{
         float: left; 
-   }
-    .chicken2 {
+  	}
+    .chicken1 {
       width: 48%;
-    }
-    .beef2 {
-      width: 48%;
-    }
-    .sushi2 {
+    } 
+    .sushi1 {
       width: 98%;
     }
+    
+   
   
   }
